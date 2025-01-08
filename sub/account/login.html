@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLUSPLAY : 로그인</title>
+    <link rel="stylesheet" href="../../css/sub/account/login.css" />
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/ico"
+      href="../../img/layout/favicon.ico"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 로그인 폼 -->
+      <form action="#" method="post" autocomplete="on">
+        <div class="login_wrap">
+          <!-- 로고 -->
+          <h1>
+            <a href="/"
+              ><img src="../../img/login/login_logo.svg" alt="로고"
+            /></a>
+          </h1>
+          <!-- 아이디 또는 이메일 주소, 비빌번호 -->
+          <div class="info_wrap">
+            <!-- 아이디 -->
+            <div class="input_box">
+              <label for="user_id">
+                <input
+                  type="text"
+                  name="user_id"
+                  id="user_id"
+                  required
+                  placeholder="아이디 또는 이메일 주소"
+                />
+              </label>
+            </div>
+            <!-- 비밀번호 -->
+            <div class="input_box">
+              <label for="user_pw">
+                <input
+                  type="password"
+                  name="user_pw"
+                  id="user_pw"
+                  required
+                  placeholder="비밀번호"
+                />
+              </label>
+            </div>
+          </div>
+          <!-- 로그인 버튼 -->
+          <button class="login_button">로그인</button>
+          <!-- 간편 로그인 -->
+          <div class="sns_login">
+            <div>
+              <a
+                href="https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/"
+                target="_blank"
+                ><img src="../../img/login/naver_icon.png" alt="네이버"
+              /></a>
+            </div>
+            <div>
+              <a
+                href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3D%25EA%25B5%25AC%25EA%25B8%2580%2B%25EB%25A1%259C%25EA%25B7%25B8%25EC%259D%25B8%26oq%3D%25EA%25B5%25AC%25EA%25B8%2580%2B%25EB%25A1%259C%25EA%25B7%25B8%25EC%259D%25B8%26gs_lcrp%3DEgZjaHJvbWUyBggAEEUYOdIBCDIzMTRqMGoxqAIAsAIB%26sourceid%3Dchrome%26ie%3DUTF-8%26sei%3DmNtnZ9izNsyC2roP-p22kAI&ec=GAZAAQ&hl=ko&ifkv=AeZLP9_JjQjr4OX38NzV8OQv1vaKg8fhNMPBwDR0jAlk0vhzbZ3wLRyGAVx3aB2QQBsGsVxQybloDw&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1455715042%3A1734859676403679&ddm=1"
+                target="_blank"
+                ><img src="../../img/login/google_icon.png" alt="구글"
+              /></a>
+            </div>
+            <div>
+              <a
+                href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=AfcLEcrU_sHsIgQ1tzfzpgr17o8VVpZlIZFNjbKlCS49OVVfAgqpgq7qTufTlHHdexsKT6aAy6Vp6vjZIVMP5tGesas5e3jhIDyqc8bHstsciw&smuh=43377&lh=Ac8MIRxRK654mdOuZ98"
+                target="_blank"
+                ><img src="/img/login/facebook_icon.png" alt="페이스북"
+              /></a>
+            </div>
+          </div>
+          <!-- 로그인 정보 저장 선택 -->
+          <div class="keep_login">
+            <input type="checkbox" name="input_keep" id="input_keep" />
+            <label for="keep_text">로그인 정보 저장하기</label>
+          </div>
+          <!-- 로그인 정보 분실 -->
+          <div class="forget_login">
+            <a href="#">아이디 또는 비밀번호를 잊으셨나요?</a>
+          </div>
+        </div>
+      </form>
+      <!-- 회원가입 -->
+      <p>처음 오셨다면, 계정을 생성해드릴게요</p>
+      <button class="account_button">회원가입 하러가기</button>
+    </div>
+  </body>
+</html>

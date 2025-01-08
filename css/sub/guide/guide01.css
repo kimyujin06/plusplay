@@ -1,0 +1,287 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url("../../reset.css");
+@import url("../../common.css");
+
+/* 섹션 1번 - 섹션 풀 스크린 이미지 영역 */
+.sec1_you_play_plus {
+  width: 100%;
+  height: fit-content;
+  padding-top: 100px;
+}
+
+.sec1_you_play_plus > div {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+.sec1_you_play_plus > div > img {
+  max-width: 100%;
+}
+
+.sec1_you_play_plus > div > h2 {
+  width: 990px;
+  height: fit-content;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* 섹션 2번 - 서비스 비전 */
+.sec2_vision {
+  width: 100%;
+  height: 774px;
+  background-color: #fff;
+}
+
+.sec2_vision > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 140px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.sec2_text_box {
+  width: fit-content;
+  height: fit-content;
+}
+
+.sec2_text_box > h4 {
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  line-height: 32px;
+}
+
+.sec2_text_box > h4::before {
+  content: "플러스 4컬러 아이콘";
+  display: block;
+  width: 35px;
+  height: 35px;
+  font-size: 0px;
+  float: left;
+  background-image: url(../../../img/layout/four_color_icon.svg);
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.sec2_text_box > h2 {
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.sec2_text_box > p {
+  font-size: 23px;
+  color: #777777;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.sec2_img_box {
+  width: 860px;
+  height: 606px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+/* 섹션 3번 - 서비스 소개 */
+.sec3_service {
+  width: 100%;
+  height: 1600px;
+  background-color: #000;
+  color: #fff;
+  padding: 84px 106px;
+  box-sizing: border-box;
+}
+
+.sec3_service > div > h4 {
+  margin-left: 278px;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.sec3_service > div > h2 {
+  margin-left: 278px;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.sec3_content_box {
+  width: 100%;
+  height: 422px;
+  display: flex;
+  align-items: center;
+  padding: 0px 278px;
+  box-sizing: border-box;
+}
+
+.sec3_content_box > div:nth-of-type(1) {
+  width: 510px;
+  height: 309px;
+  border-radius: 32px;
+  overflow: hidden;
+  margin-right: 70px;
+}
+
+.sec3_content_box:nth-of-type(2) > div:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec3_content_box:nth-of-type(2) {
+  border-top: 1px solid rgba(255, 255, 255, 0.246);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.246);
+}
+
+.sec3_content_box > div:nth-of-type(2) {
+  width: fit-content;
+  height: fit-content;
+}
+
+.sec3_content_box > div:nth-of-type(2) > span {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 30px;
+  font-size: 14px;
+  background-color: #e54242;
+  border-radius: 32px;
+  font-weight: 500;
+}
+
+.sec3_content_box:nth-of-type(2) > div:nth-of-type(2) > span {
+  background-color: #ffce33;
+}
+
+.sec3_content_box:nth-of-type(3) > div:nth-of-type(2) > span {
+  background-color: #40c639;
+}
+
+.sec3_content_box > div:nth-of-type(2) > h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.sec3_content_box > div:nth-of-type(2) > p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #b9b9b9;
+  line-height: 30px;
+}
+
+/* 섹션 4번 - 추가 가이드 영역 */
+.sec4_ather {
+  width: 100%;
+  height: 690px;
+}
+
+.sec4_ather > div {
+  width: 100%;
+  height: 100%;
+  padding: 80px 140px;
+  box-sizing: border-box;
+}
+
+.sec4_text_box {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.sec4_text_box > h4 {
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.sec4_text_box > h4::before {
+  content: "플러스 4컬러 아이콘";
+  display: block;
+  width: 35px;
+  height: 35px;
+  font-size: 0px;
+  float: left;
+  background-image: url(../../../img/layout/four_color_icon.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -50px;
+  top: 12px;
+}
+
+.sec4_text_box > h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.noticeboard_wrap {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticeboard_box {
+  width: 775px;
+  height: 382px;
+  background-color: #f8f8f8;
+  border-radius: 32px;
+  padding: 30px 52px;
+  box-sizing: border-box;
+}
+
+.noticeboard_item {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.noticeboard_box > .noticeboard_item:last-child {
+  border: none;
+}
+
+.noticeboard_item > a {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: #000;
+  font-weight: 500;
+  border-left: 1px solid #cbcbcb;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.noticeboard_item > a > img {
+  margin-left: 15px;
+}
+
+.noticeboard_item > h5 {
+  width: 77px;
+  border-right: 1px solid #cbcbcb;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-right: 28px;
+}
+
+.noticeboard_item > p {
+  font-size: 16px;
+  color: #767676;
+}

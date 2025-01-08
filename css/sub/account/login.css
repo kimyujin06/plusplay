@@ -1,0 +1,161 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@import url("./reset.css");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+
+.container {
+  width: 621px;
+  height: 831px;
+  border: 1px solid #eaeaea;
+  padding: 35px 104px 81px;
+  margin: 10vh auto;
+  box-sizing: border-box;
+  border-radius: 32px;
+}
+
+.login_wrap {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: 42px;
+}
+
+/* 로고 */
+.login_wrap > h1 {
+  width: 232px;
+  height: 130px;
+  margin-bottom: 19px;
+  margin: 0 auto;
+}
+
+/* 아이디, 비밀번호 */
+.input_box {
+  width: 100%;
+  height: fit-content;
+}
+
+.input_box > label > input {
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 32px;
+  margin-bottom: 12px;
+  border: 1px solid #eaeaea;
+  padding: 0px 25px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* 로그인 버튼 */
+.login_button {
+  width: 100%;
+  height: 60px;
+  border-radius: 32px;
+  cursor: pointer;
+  border: none;
+  background-color: #101010;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.login_button:hover {
+  transition: 0.2s;
+  background-color: #141414e0;
+}
+
+/* 간편 로그인 */
+.sns_login {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin: 0px auto;
+  margin-bottom: 40px;
+}
+
+.sns_login > div:nth-child(2) {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* 로그인 정보 저장 선택 */
+.keep_login {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.keep_login > input {
+  width: 20px;
+  height: 21px;
+  margin-right: 7px;
+}
+
+.keep_login > input::before {
+  content: "로그인 정보 기억";
+  width: 20px;
+  height: 21px;
+  font-size: 0px;
+  display: block;
+  background-color: #fff;
+  background-image: url(./../img/login/remember_check_icon.png);
+}
+
+.keep_login > label {
+  width: fit-content;
+  height: fit-content;
+  font-size: 14px;
+  color: #787878;
+}
+
+/* 로그인 정보 분실 */
+.forget_login {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+
+.forget_login > a {
+  color: #101010;
+  text-decoration: underline 1px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* 회원가입 */
+.container > p {
+  color: #2d2d2d;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* 회원가입 버튼 */
+.account_button {
+  width: 100%;
+  height: 60px;
+  border-radius: 32px;
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  cursor: pointer;
+  font-size: 16px;
+  color: #353535;
+  font-weight: 500;
+}
+
+.account_button:hover {
+  background-color: #f1f1f1;
+  border: 1px solid #e4e4e4;
+  transition: 0.1s;
+}
