@@ -346,12 +346,12 @@ main {
 
 .category_img_box img {
   filter: grayscale(100%);
-  transition: 0.3s;
-  max-width: 140px;
+  transition: 0.2s;
+  max-width: 120px;
 }
 
 .category_box:hover .category_img_box img {
-  transform: scale(1.1);
+  transform: scale(1.15);
   filter: grayscale(0%);
 }
 
