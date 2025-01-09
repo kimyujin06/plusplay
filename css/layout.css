@@ -355,7 +355,7 @@ main {
   filter: grayscale(0%);
 }
 
-<<<<<<< HEAD ======= .category_box:nth-of-type(1) > .category_img_box img {
+.category_box:nth-of-type(1) > .category_img_box img {
   max-width: 80px;
 }
 
@@ -367,7 +367,6 @@ main {
   max-width: 80px;
 }
 
->>>>>>> b8d051e ([docs] 메인 섹션 3번 이미지 변경 및 크기 조정 완료)
 /* 섹션 4번 신상게임 */
 .sec4_new_topic {
   width: 100%;
