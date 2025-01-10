@@ -196,6 +196,37 @@
   background-color: #101010bd;
 }
 
+.plus_button > a:hover {
+  background-color: #101010bd;
+}
+
+.plus_button > a:hover {
+  background-color: #101010bd;
+}
+
+.plus_button > a img {
+  animation-play-state: paused;
+}
+
+.plus_button > a:hover img {
+  animation: button_move 0.6s linear infinite;
+  animation-play-state: running;
+}
+
+@keyframes button_move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 /* 섹션 2번 - 패키지 가이드 영역 */
 .sec2_pacage_guide {
   width: 100%;
