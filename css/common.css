@@ -58,6 +58,7 @@ header {
 #gnb {
   width: fit-content;
   height: 100%;
+  position: relative;
 }
 
 #gnb > ul {
@@ -69,7 +70,7 @@ header {
 }
 
 #gnb > ul > li {
-  width: 100px;
+  width: 110px;
   height: fit-content;
   padding-bottom: 40px;
 }
@@ -92,59 +93,33 @@ header {
 }
 
 /* 2차 메뉴 영역 */
-.submenu1,
-.submenu2,
-.submenu3,
-.submenu4,
-.submenu5 {
-  width: 140px;
+.submenu {
+  width: 110px;
   height: 0px;
   overflow: hidden;
-  background-color: #fff;
   position: absolute;
   text-align: center;
   border-top: none;
   transition: 0.3s;
-}
-
-.submenu1 {
-  position: absolute;
-  left: -70px;
-  top: 100px;
-  border-radius: 0px 0px 0px 32px;
-  padding-left: 50px;
-}
-.submenu2 {
-  position: absolute;
-  left: 120px;
   top: 100px;
 }
 
-.submenu3 {
+#gnb::after {
+  content: "sub_back";
+  font-size: 0px;
+  display: block;
   position: absolute;
-  left: 260px;
-  top: 100px;
-}
-
-.submenu4 {
-  position: absolute;
-  left: 400px;
-  top: 100px;
-}
-
-.submenu5 {
-  position: absolute;
-  left: 540px;
-  top: 100px;
-  padding-right: 50px;
-  border-radius: 0px 0px 32px 0px;
-}
-
-#gnb
-  > ul:hover
-  > li
-  > :is(.submenu1, .submenu2, .submenu3, .submenu4, .submenu5) {
-  height: 300px;
+  width: 1000px;
+  height: 0px;
+  top: 99px;
+  left: -20%;
+  background-color: #ffffff;
+  z-index: -1;
+  border-radius: 0px 0px 32px 32px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  border-top: 0px;
+  box-sizing: border-box;
 }
 
 #gnb > ul > li > ul > li > a {
@@ -153,10 +128,21 @@ header {
   line-height: 30px;
   font-size: 16px;
   font-weight: 400;
+  transition: 0.3s;
+}
+
+#gnb:hover .submenu {
+  height: 300px;
+}
+#gnb:hover::after {
+  height: 300px;
+  border: 1px solid #ededed;
+  border-top: 0px;
 }
 
 #gnb > ul > li > ul > li:hover > a {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 17px;
 }
 
 #gnb > ul > li > ul > li {
