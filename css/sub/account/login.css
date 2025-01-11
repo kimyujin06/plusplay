@@ -51,6 +51,10 @@ body {
   outline: none;
 }
 
+.input_box > label > input:focus {
+  border: 1px solid #7e7e7e;
+}
+
 /* 로그인 버튼 */
 .login_button {
   width: 100%;
