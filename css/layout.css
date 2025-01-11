@@ -197,7 +197,7 @@ main {
 /* 메인 비주얼 글자 영역 */
 .sec1_big_text {
   position: absolute;
-  bottom: 120px;
+  bottom: 150px;
   left: 94px;
   color: #fff;
 }
@@ -206,6 +206,12 @@ main {
   font-size: 44px;
   line-height: 1.5;
   font-weight: 600;
+}
+
+.sec1_mainvisual > div > .plus_button {
+  position: absolute;
+  bottom: -60px;
+  right: 24px;
 }
 
 /* 섹션 2번 - 이벤트 소식 */
