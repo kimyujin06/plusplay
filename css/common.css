@@ -160,8 +160,7 @@ header {
 }
 
 .header_icons > div:nth-of-type(3) {
-  /* PC 버전에서는 none, Mobile 버전에서는 flex */
-  /* display: none; */
+  display: none;
   position: relative;
 }
 
