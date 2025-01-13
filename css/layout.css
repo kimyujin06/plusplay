@@ -602,6 +602,10 @@ main {
   margin-bottom: 20px;
 }
 
+.sec5_con_text > p:nth-of-type(1) > br {
+  display: none;
+}
+
 .sec5_con_hashtag {
   font-size: 16px;
   color: #515151;
