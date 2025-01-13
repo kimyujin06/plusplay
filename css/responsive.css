@@ -58,9 +58,17 @@
     left: 34px;
     letter-spacing: -2px;
   }
+  .sec1_big_text > h2 {
+    font-size: clamp(20px 15vw 30px);
+  }
+
   .sec1_mainvisual > div > .plus_button {
     bottom: -100px;
     right: -60px;
+  }
+
+  .sec1_mainvisual > div > .plus_button > a {
+    padding: 15px 5vw;
   }
 
   /* 섹션 2번 - 이벤트 소식 */
@@ -148,7 +156,7 @@
     margin: 58px auto;
   }
   .sec4_new_topic > .plus_button > a {
-    padding: 15px 110px;
+    padding: 15px 12vw;
     margin-bottom: 50px;
   }
 
@@ -163,9 +171,11 @@
     margin-bottom: 0px;
     padding-top: 50px;
   }
-  .sec5_con_box:not(.sec5_con_box:nth-of-type(1)) {
+
+  .sec5_con_box:nth-of-type(2) {
     display: none;
   }
+
   .hashtag {
     display: none;
   }
@@ -223,7 +233,108 @@
     padding-bottom: 50px;
   }
   .sec5_attention > .plus_button > a {
-    padding: 15px 130px;
+    padding: 15px 17vw;
     margin-bottom: 0px;
   }
+
+  /* 섹션 6번 커뮤니티 */
+  .sec6_img_box {
+    transform: translateX(0px);
+  }
+  .sec6_img_box > div {
+    width: 100%;
+    height: fit-content;
+  }
+  .sec6_img_box > div:nth-child(2) {
+    width: 100%;
+    height: fit-content;
+  }
+  .sec6_img_box > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sec6_img_box > div:nth-of-type(1) {
+    display: none;
+  }
+  .sec6_img_box > div:nth-of-type(3) {
+    display: none;
+  }
+  /* 섹션 6번 더보기 버튼 영역 */
+  .sec6_community > .plus_button {
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .sec6_community > .plus_button > a {
+    padding: 15px 12vw;
+  }
+
+  /* 섹션 7번 추천 패키지 */
+  .sec7_recommended > .hashtag {
+    display: none;
+  }
+
+  .sec7_recommended > .title {
+    margin-bottom: 30px;
+  }
+
+  .sec7_con_wrap {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .sec7_con_wrap > div:nth-of-type(2) {
+    display: block;
+    width: 100%;
+  }
+
+  .sec7_con_col {
+    width: 100%;
+    margin-top: 30px;
+    height: fit-content;
+    padding: 50px 6vw;
+  }
+
+  .sec7_con_col:last-child {
+    width: 100%;
+    margin: 0px;
+    margin-top: 30px;
+  }
+
+  .sec7_row_box {
+    width: 100%;
+    padding: 50px;
+    padding-right: 1vw;
+    padding-left: 6vw;
+    align-items: center;
+  }
+
+  .price_button > a {
+    padding: 10px;
+    padding-right: 5vw;
+    padding-left: 3vw;
+  }
+
+  .sec7_row_box > div:nth-of-type(2) img {
+    width: 25vw;
+  }
+  .sec7_con_col > img {
+    width: 23vw;
+    margin: 64px auto;
+  }
+  .sec7_con_col:last-child > img {
+    margin: 64px auto;
+    width: 33vw;
+  }
+
+  /* 섹션 7번 더보기 버튼 영역 */
+  .sec7_recommended > .plus_button {
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .sec7_recommended > .plus_button > a {
+    padding: 15px 14vw;
+  }
+
+  /* 섹션 8번 - 이용가이드 */
 }
