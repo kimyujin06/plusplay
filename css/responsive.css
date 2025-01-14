@@ -365,6 +365,100 @@
   }
 
   /* 섹션 8번 - 이용가이드 */
+  .sec8_box_wrap {
+    width: 100%;
+    display: block;
+  }
+  .sec8_text_box > div {
+    width: 100%;
+  }
+  .sec8_text_box > div > h3 {
+    font-size: 22px;
+  }
+  .sec8_text_box > div > div {
+    width: 100%;
+  }
+  .sec8_text_box > div > div > p:first-child {
+    width: 60%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .sec8_text_box > div > div > p:last-child {
+    width: 40%;
+  }
+  .sec8_text_box > div > div > p:last-child > a {
+    padding: 0px 5vw;
+    margin-left: auto;
+  }
+  .sec8_img_box {
+    display: block;
+  }
+  .sec8_img_box > img {
+    display: none;
+  }
+  .sec8_img_box > .plus_button {
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .sec8_img_box > .plus_button > a {
+    padding: 15px 14vw;
+  }
+  /* 섹션 9번 */
+  .sec9_box_wrap {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .sec9_img_box {
+    display: block;
+  }
+  .sec9_img_box > img {
+    display: none;
+  }
+  .sec9_img_box > .plus_button {
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+  .sec9_img_box > .plus_button > a {
+    padding: 15px 17vw;
+  }
+  .sec9_text_box {
+    width: 100%;
+  }
+  .sec9_text {
+    width: 100%;
+  }
+  .sec9_text > div > p:first-child {
+    margin-right: 20px;
+    line-height: 24px;
+  }
+  .sec9_text > div:first-child > p:last-child {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sec9_text > div:last-child > p:last-child {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  /* 푸터 영역 */
+  footer > div {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+  }
+  footer > div > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer > div > div {
+    margin-left: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  footer > div > div > p {
+    width: 110px;
+    margin-left: 5px;
+  }
 }
 
 @media screen and (min-width: 476px) and (max-width: 768px) {
@@ -407,6 +501,49 @@
   }
   .sec7_row_box > div:first-child > p:nth-of-type(1) {
     font-size: 28px;
+  }
+  /* 섹션 8번 - 이용가이드 */
+  .sec8_box_wrap {
+    width: 100%;
+    display: block;
+  }
+  .sec8_text_box > div {
+    width: 100%;
+  }
+  .sec8_text_box > div > div {
+    width: 100%;
+  }
+  .sec8_text_box > div > div > p:first-child {
+    width: 70%;
+  }
+  .sec8_text_box > div > div > p:last-child {
+    width: 30%;
+  }
+  .sec8_text_box > div > div > p:last-child > a {
+    padding: 0px 0vw;
+    margin-left: auto;
+  }
+  .sec8_img_box {
+    display: none;
+  }
+  .sec8_text_box > div > div > p:first-child {
+    width: 60%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .sec8_text_box > div > div > p:last-child {
+    width: 40%;
+  }
+  .sec8_text_box > div > div > p:last-child > a {
+    padding: 0px 5vw;
+    margin-left: auto;
+  }
+  .sec8_img_box {
+    display: block;
+  }
+  .sec8_img_box > img {
+    display: none;
   }
 }
 
