@@ -894,12 +894,19 @@ main {
 
 /* 섹션 8번 - 이용가이드 */
 .sec8_guide {
-  width: 100%;
+  width: 76%;
   height: 100%;
+  margin: 0px auto;
+}
+
+.sec8_guide > .title {
+  padding: 0px;
+  width: 100%;
+  margin-left: 0px;
 }
 
 .sec8_box_wrap {
-  width: 1460px;
+  width: 100%;
   height: fit-content;
   margin: 0px auto;
   display: flex;
@@ -946,12 +953,19 @@ main {
 
 /* 섹션 9번 - 자주 묻는 질문 */
 .sec9_question {
-  width: 100%;
+  width: 76%;
   height: fit-content;
+  margin: 0px auto;
+}
+
+.sec9_question > .title {
+  padding: 0px;
+  width: 100%;
+  margin-left: 0px;
 }
 
 .sec9_box_wrap {
-  width: 1460px;
+  width: 100%;
   height: fit-content;
   margin: 0px auto;
   display: flex;
@@ -969,7 +983,7 @@ main {
 }
 
 .sec9_text {
-  width: 806px;
+  width: 100%;
   height: fit-content;
 }
 
@@ -1024,11 +1038,13 @@ footer {
 }
 
 footer > div {
-  width: 1582px;
+  width: 100%;
   height: fit-content;
   margin: 38px auto;
   display: flex;
   align-items: center;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 footer > div > div {
