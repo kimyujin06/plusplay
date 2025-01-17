@@ -688,11 +688,17 @@ main {
 
 /* 섹션 5번 - 더보기 버튼 영역 */
 .sec5_attention > .plus_button {
-  margin-right: 205px;
+  margin-left: 0px;
+  width: 1462px;
+  margin-right: 0px;
   padding-bottom: 130px;
+  justify-content: end;
+  margin: 0px auto;
 }
 
 .sec5_attention > .plus_button > a {
+  margin-left: auto;
+  width: fit-content;
   margin-bottom: 0px;
 }
 
@@ -773,11 +779,6 @@ main {
 .sec7_con_wrap {
   display: flex;
   justify-content: space-between;
-}
-
-.sec7_row_box {
-  width: fit-content;
-  height: fit-content;
 }
 
 .sec7_row_box {
@@ -884,11 +885,17 @@ main {
 
 /* 섹션 7번 더보기 버튼 영역 */
 .sec7_recommended > .plus_button {
-  margin-right: 205px;
+  margin-left: 0px;
+  width: 1462px;
+  margin-right: 0px;
   padding-bottom: 130px;
+  justify-content: end;
+  margin: 60px auto;
 }
 
 .sec7_recommended > .plus_button > a {
+  margin-left: auto;
+  width: fit-content;
   margin-bottom: 0px;
 }
 
@@ -1043,7 +1050,7 @@ footer > div {
   margin: 38px auto;
   display: flex;
   align-items: center;
-  padding: 0px 50px;
+  padding: 0px 120px;
   box-sizing: border-box;
 }
 

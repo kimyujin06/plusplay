@@ -258,6 +258,7 @@
 
   /* 섹션 5번 - 버튼 영역 */
   .sec5_attention > .plus_button {
+    width: 100%;
     margin: 0px auto;
     padding: 0px;
     padding-bottom: 50px;
@@ -265,6 +266,7 @@
   .sec5_attention > .plus_button > a {
     padding: 15px 17vw;
     margin-bottom: 0px;
+    margin: 0px auto;
   }
 
   /* 섹션 6번 커뮤니티 */
@@ -367,6 +369,7 @@
 
   /* 섹션 7번 더보기 버튼 영역 */
   .sec7_recommended > .plus_button {
+    width: fit-content;
     margin: 0px auto;
     margin-top: 50px;
   }
@@ -430,7 +433,7 @@
     margin-top: 50px;
   }
   .sec9_img_box > .plus_button > a {
-    padding: 15px 17vw;
+    padding: 15px 16vw;
   }
   .sec9_text_box {
     width: 100%;
@@ -460,6 +463,7 @@
     display: block;
     margin: 0px auto;
     margin-bottom: 30px;
+    padding: 0px;
   }
   footer > div > img {
     margin-top: 20px;
@@ -831,6 +835,7 @@
 
   /* 섹션 5번 - 버튼 영역 */
   .sec5_attention > .plus_button {
+    width: fit-content;
     margin: 0px auto;
     padding: 0px;
     padding-bottom: 50px;
@@ -838,6 +843,7 @@
   .sec5_attention > .plus_button > a {
     padding: 15px 17vw;
     margin-bottom: 0px;
+    margin: 0px auto;
   }
 
   /* 섹션 6번 커뮤니티 */
@@ -931,6 +937,7 @@
 
   /* 섹션 7번 더보기 버튼 영역 */
   .sec7_recommended > .plus_button {
+    width: fit-content;
     margin: 0px auto;
     margin-top: 50px;
   }
@@ -1015,7 +1022,7 @@
     margin-top: 50px;
   }
   .sec9_img_box > .plus_button > a {
-    padding: 15px 17vw;
+    padding: 15px 15vw;
   }
   .sec9_text_box {
     width: 100%;
@@ -1196,6 +1203,7 @@
   }
   .event_box > p:nth-of-type(3) {
     display: none;
+    border: none;
   }
   .event_plus {
     display: flex;
@@ -1229,8 +1237,10 @@
     margin: 0px auto;
   }
   .title {
-    margin: 130px 0px;
+    width: 500px;
+    margin: 130px auto;
     margin-bottom: 50px;
+    margin-left: 4vw;
   }
   .title_text_box > p {
     display: flex;
@@ -1243,11 +1253,12 @@
     width: 100%;
   }
   .sec4_img_wrap {
-    width: 100%;
+    width: fit-content;
     overflow: hidden;
     display: flex;
     gap: 40px;
     animation: none;
+    margin: 0px auto;
   }
   .sec4_img_box:not(.sec4_img_box:nth-of-type(1)) {
     display: none;
@@ -1257,7 +1268,7 @@
   }
   /* 섹션 4번 버튼 영역 */
   .sec4_new_topic > .plus_button {
-    margin-right: 0px;
+    margin-right: 3vw;
   }
 
   .sec4_new_topic > .plus_button > a {
@@ -1343,6 +1354,7 @@
 
   /* 섹션 5번 - 버튼 영역 */
   .sec5_attention > .plus_button {
+    width: fit-content;
     margin: 0px auto;
     padding: 0px;
     padding-bottom: 50px;
@@ -1350,6 +1362,7 @@
   .sec5_attention > .plus_button > a {
     padding: 15px 12vw;
     margin-bottom: 0px;
+    margin: 0px auto;
   }
   /* 섹션 6번 커뮤니티 */
   .sec6_img_wrap {
@@ -1436,6 +1449,7 @@
 
   /* 섹션 7번 더보기 버튼 영역 */
   .sec7_recommended > .plus_button {
+    width: fit-content;
     margin: 0px;
     margin-top: 50px;
     margin: 0px auto;
@@ -1680,9 +1694,10 @@
     margin: 0px auto;
   }
   .title {
-    width: 80%;
+    width: 500px;
     margin: 130px auto;
     margin-bottom: 50px;
+    margin-left: 4vw;
   }
   .title_text_box > p {
     display: flex;
@@ -1693,7 +1708,11 @@
 
   /* 섹션 5번 */
   .sec5_attention > .plus_button {
+    width: fit-content;
     margin: 0px auto;
+  }
+  .sec5_attention > .plus_button > a {
+    padding: 15px 12vw;
   }
   .sec5_attention {
     background-position: 60%;
@@ -1834,6 +1853,7 @@
 
   /* 섹션 7번 더보기 버튼 영역 */
   .sec7_recommended > .plus_button {
+    width: fit-content;
     margin: 0px;
     margin-top: 50px;
     margin: 0px auto;
@@ -2010,5 +2030,76 @@
     height: 100%;
     object-fit: cover;
     object-position: 48%;
+  }
+
+  /* 섹션 2번 - 이벤트 소식 */
+  .sec2_event_news {
+    width: 90%;
+  }
+  /* 이벤트 박스 (텍스트,더보기) */
+  .event_box {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .event_box > p:nth-of-type(1) {
+    width: 20%;
+  }
+  .event_box > p:nth-of-type(1)::before {
+    left: 4vw;
+  }
+  .event_box > p:nth-of-type(2) {
+    width: 70%;
+  }
+  .event_box > p:nth-of-type(2) > a {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .event_box > p:nth-of-type(3) {
+    display: flex;
+  }
+  .event_plus {
+    display: flex;
+    line-height: 34px;
+    padding-left: 30px;
+    margin-left: 20px;
+  }
+
+  /* 섹션 3번 카테고리 영역 */
+  .sec3_category {
+    width: 100%;
+    gap: 50px;
+  }
+
+  /* 섹션 5번 */
+  .sec5_con_text {
+    width: 650px;
+  }
+  /* 섹션 5번 - 더보기 버튼 영역 */
+  .sec5_attention > .plus_button {
+    width: 1305px;
+  }
+
+  /* 섹션 7번 추천 패키지 영역 */
+  .sec7_con_wrap {
+    width: 1300px;
+  }
+  .sec7_row_box {
+    width: 480px;
+  }
+  .sec7_con_col {
+    width: 380px;
+  }
+  .sec7_con_col:last-child {
+    margin-left: 30px;
+  }
+  .sec7_recommended > .plus_button {
+    width: 1300px;
+  }
+
+  /* 섹션 8번 이용가이드 영역 */
+  .sec8_text_box > div {
+    width: 40vw;
   }
 }
