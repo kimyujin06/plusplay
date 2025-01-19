@@ -1,0 +1,254 @@
+@charset "utf-8";
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* 헤더영역 */
+  .con {
+    padding: 0px 35px;
+    padding-left: 10px;
+  }
+
+  /* 로고 영역 */
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+  }
+  .con > h1 {
+    width: fit-content;
+    height: 72px;
+  }
+
+  /* 헤더 메뉴 영역 */
+  #gnb {
+    display: none;
+  }
+
+  /* 헤더 아이콘 영역 */
+  .header_icons > div:nth-of-type(1) {
+    display: none;
+  }
+  .header_icons > div:nth-of-type(3) {
+    display: flex;
+  } /* 푸터 영역 */
+  footer {
+    height: fit-content;
+  }
+  footer > div {
+    width: 90%;
+    height: fit-content;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+  footer > div > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer > div > div {
+    margin-left: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  footer > div > div > p {
+    width: fit-content;
+    margin-left: 5px;
+  }
+}
+
+/* 테블릿 - sm, md */
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+  /* 헤더영역 */
+  .con {
+    padding: 0px 35px;
+    padding-left: 10px;
+  }
+
+  /* 로고 영역 */
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 30px;
+    padding-left: 3vw;
+    box-sizing: border-box;
+  }
+  .con > h1 {
+    width: fit-content;
+    height: 72px;
+  }
+
+  /* 헤더 메뉴 영역 */
+  #gnb {
+    display: none;
+  }
+
+  /* 헤더 아이콘 영역 */
+  .header_icons > div:nth-of-type(1) {
+    display: none;
+  }
+  .header_icons > div:nth-of-type(3) {
+    display: flex;
+  }
+  /* 푸터 영역 */
+  footer {
+    height: fit-content;
+  }
+  footer > div {
+    width: 90%;
+    height: fit-content;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  footer > div > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer > div > div {
+    margin-left: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  footer > div > div > p {
+    width: fit-content;
+    margin-left: 5px;
+  }
+}
+
+/* 테블릿-md, 작은 노트북 */
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+  /* 헤더영역 */
+  .con {
+    padding: 0px 35px;
+    padding-left: 10px;
+  }
+
+  /* 로고 영역 */
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 60px;
+    padding-left: 4vw;
+    box-sizing: border-box;
+  }
+  .con > h1 {
+    width: fit-content;
+    height: 72px;
+  }
+
+  /* 헤더 메뉴 영역 */
+  #gnb {
+    display: none;
+  }
+
+  /* 헤더 아이콘 영역 */
+  .header_icons > div:nth-of-type(1) {
+    display: none;
+  }
+  .header_icons > div:nth-of-type(3) {
+    display: flex;
+  }
+  /* 푸터 영역 */
+  footer {
+    height: fit-content;
+  }
+  footer > div {
+    width: 90%;
+    height: fit-content;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 30px;
+  }
+  footer > div > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer > div > div {
+    margin-left: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  footer > div > div > p {
+    width: fit-content;
+    margin-left: 5px;
+  }
+}
+
+/* 테블릿-lg, 일반 노트북 */
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* 로고 영역 */
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 50px;
+    padding-left: 5vw;
+    box-sizing: border-box;
+  }
+  .con > h1 {
+    width: fit-content;
+    height: 72px;
+  }
+
+  /* 헤더 메뉴 영역 */
+  #gnb::after {
+    width: 850px;
+    left: -10%;
+  }
+
+  /* 헤더 아이콘 영역 */
+  .header_icons > div:nth-of-type(1) {
+    display: flex;
+  }
+  .header_icons > div:nth-of-type(3) {
+    display: none;
+  }
+  /* 푸터 영역 */
+  footer > div {
+    width: 100%;
+    padding: 0px 50px;
+    box-sizing: border-box;
+  }
+}
+
+/* pc */
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  /* 로고 영역 */
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 70px;
+    padding-left: 78px;
+    box-sizing: border-box;
+  }
+  .con > h1 {
+    width: fit-content;
+    height: 72px;
+  }
+
+  /* 헤더 메뉴 영역 */
+  #gnb::after {
+    width: 900px;
+    left: -14%;
+  }
+
+  /* 헤더 아이콘 영역 */
+  .header_icons > div:nth-of-type(1) {
+    display: flex;
+  }
+  .header_icons > div:nth-of-type(3) {
+    display: none;
+  }
+}
