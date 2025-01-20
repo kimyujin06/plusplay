@@ -2,4 +2,18 @@
 @import url(../../common_responsive.css);
 /* mobile */
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  /* 섹션 1번 - 섹션 풀 스크린 이미지 영역 */
+  .sec1_you_play_plus {
+    width: 100%;
+    height: 100vh;
+  }
+  .sec1_you_play_plus > div {
+    width: 100%;
+    height: 50%;
+  }
+  .sec1_you_play_plus > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }

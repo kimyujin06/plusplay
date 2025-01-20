@@ -183,6 +183,12 @@
 
 /* 테블릿-lg, 일반 노트북 */
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* 헤더영역 */
+  .con {
+    padding: 0px 35px;
+    padding-left: 10px;
+  }
+
   /* 로고 영역 */
   header {
     width: 100%;
@@ -222,6 +228,12 @@
 
 /* pc */
 @media screen and (min-width: 1441px) and (max-width: 1600px) {
+  /* 헤더영역 */
+  .con {
+    padding: 0px 35px;
+    padding-left: 10px;
+  }
+
   /* 로고 영역 */
   header {
     width: 100%;
