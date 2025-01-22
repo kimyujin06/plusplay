@@ -5,15 +5,134 @@
   /* 섹션 1번 - 섹션 풀 스크린 이미지 영역 */
   .sec1_you_play_plus {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
   }
   .sec1_you_play_plus > div {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
   .sec1_you_play_plus > div > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .sec1_you_play_plus > div > h2 {
+    width: fit-content;
+    font-size: 40px;
+    top: 200px;
+    left: 30px;
+    transform: translateX(0%);
+    line-height: 60px;
+  }
+  .sec1_you_play_plus > div > h2 > br {
+    display: block;
+  }
+
+  /* 섹션 2번 - 서비스 비전 */
+  .sec2_vision {
+    height: fit-content;
+    margin: 100px 0px;
+  }
+  .sec2_vision > div {
+    display: block;
+    padding: 0px 15px;
+  }
+  .sec2_text_box {
+    margin: 0px auto;
+  }
+  .sec2_text_box > h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .sec2_text_box > p {
+    font-size: 19px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .sec2_img_box {
+    width: 100%;
+    height: fit-content;
+  }
+  .sec2_img_box > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* 섹션 3번 - 서비스 소개 */
+  .sec3_service {
+    width: 100%;
+    height: fit-content;
+    padding: 84px 15px;
+  }
+  .sec3_service > div > h4 {
+    width: 400px;
+    margin-left: 0px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+  }
+  .sec3_service > div > h2 {
+    width: 400px;
+    margin-left: 0px;
+    font-size: 26px;
+    margin: 0px auto;
+  }
+  .sec3_content_box {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 0px;
+    margin-top: 84px;
+    height: fit-content;
+  }
+  .sec3_content_box:nth-of-type(1)
+    > div:nth-of-type(2)
+    > p
+    > br:nth-of-type(2) {
+    display: block;
+  }
+  .sec3_content_box > div:nth-of-type(1) {
+    width: 440px;
+    margin-right: 0px;
+  }
+  .sec3_content_box > div:nth-of-type(2) > h3 {
+    font-size: 24px;
+  }
+  .sec3_content_box > div:nth-of-type(2) > p {
+    font-size: 19px;
+    margin-bottom: 40px;
+  }
+  .sec3_content_box:nth-of-type(2) {
+    padding: 80px 0px;
+  }
+
+  /* 섹션 4번 - 추가 가이드 영역 */
+  .sec4_ather {
+    height: fit-content;
+  }
+  .sec4_ather > div {
+    padding: 80px 15px;
+  }
+  .sec4_text_box > h2 {
+    font-size: 26px;
+  }
+  .noticeboard_wrap {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .noticeboard_box {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .noticeboard_item > a {
+    display: none;
+  }
+  .noticeboard_item > p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .noticeboard_item > h5 {
+    width: 58px;
+    padding-left: 1vw;
+    font-size: 17px;
   }
 }

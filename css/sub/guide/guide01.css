@@ -32,6 +32,10 @@
   color: #fff;
 }
 
+.sec1_you_play_plus > div > h2 > br {
+  display: none;
+}
+
 /* 섹션 2번 - 서비스 비전 */
 .sec2_vision {
   width: 100%;
@@ -133,6 +137,10 @@
   border-radius: 32px;
   overflow: hidden;
   margin-right: 70px;
+}
+
+.sec3_content_box:nth-of-type(1) > div:nth-of-type(2) > p > br:nth-of-type(2) {
+  display: none;
 }
 
 .sec3_content_box:nth-of-type(2) > div:nth-of-type(1) > img {
