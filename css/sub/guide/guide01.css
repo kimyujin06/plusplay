@@ -109,17 +109,27 @@
 }
 
 .sec3_service > div > h4 {
-  margin-left: 278px;
+  /* margin-left: 278px; */
   font-size: 19px;
   font-weight: 800;
   margin-bottom: 40px;
+  width: fit-content;
 }
 
 .sec3_service > div > h2 {
-  margin-left: 278px;
+  /* margin-left: 278px; */
   font-size: 36px;
   line-height: 60px;
   font-weight: 700;
+}
+
+.sec3_service > div {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.sec3_content_wrap {
+  width: 100%;
 }
 
 .sec3_content_box {
@@ -127,7 +137,8 @@
   height: 422px;
   display: flex;
   align-items: center;
-  padding: 0px 278px;
+  /* padding: 0px 278px; */
+  justify-content: center;
   box-sizing: border-box;
 }
 
@@ -155,7 +166,7 @@
 }
 
 .sec3_content_box > div:nth-of-type(2) {
-  width: fit-content;
+  width: 498px;
   height: fit-content;
 }
 

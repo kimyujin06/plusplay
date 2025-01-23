@@ -263,4 +263,7 @@
   .header_icons > div:nth-of-type(3) {
     display: none;
   }
+  footer > div {
+    width: 90%;
+  }
 }
