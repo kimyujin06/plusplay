@@ -5,11 +5,11 @@
   /* 섹션 1번 - 섹션 풀 스크린 이미지 영역 */
   .sec1_you_play_plus {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
   .sec1_you_play_plus > div {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
   .sec1_you_play_plus > div > img {
     width: 100%;
@@ -19,7 +19,7 @@
   .sec1_you_play_plus > div > h2 {
     width: fit-content;
     font-size: 40px;
-    top: 200px;
+    top: 30%;
     left: 30px;
     transform: translateX(0%);
     line-height: 60px;
@@ -147,11 +147,11 @@
 @media screen and (min-width: 680px) and (max-width: 1024px) {
   .sec1_you_play_plus {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
   .sec1_you_play_plus > div {
     width: 100%;
-    height: 50vh;
+    height: 50%;
   }
   .sec1_you_play_plus > div > img {
     width: 100%;
@@ -162,14 +162,11 @@
     text-align: center;
     width: 100%;
     font-size: 45px;
-    top: 220px;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     line-height: 60px;
     letter-spacing: -2px;
-  }
-  .sec1_you_play_plus > div > h2 > br {
-    /* display: block; */
   }
 
   /* 섹션 2번 - 서비스 비전 */
@@ -291,11 +288,11 @@
 @media screen and (min-width: 1025px) and (max-width: 1250px) {
   .sec1_you_play_plus {
     width: 100%;
-    height: 60vh;
+    height: 50%;
   }
   .sec1_you_play_plus > div {
     width: 100%;
-    height: 60vh;
+    height: 50%;
   }
   .sec1_you_play_plus > div > img {
     width: 100%;
@@ -306,7 +303,7 @@
     text-align: center;
     width: 100%;
     font-size: 55px;
-    top: 300px;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     line-height: 60px;
