@@ -274,3 +274,78 @@
     box-sizing: border-box;
   }
 }
+
+/* 테블릿-md, 작은 노트북 */
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  /* 섹션 1번 - 소식 영역 */
+  .sec1_news {
+    padding: 100px 15px;
+    box-sizing: border-box;
+  }
+  /* 섹션 2번 - 이벤트 영역 */
+  .sec2_event {
+    padding: 100px 15px;
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
+  .sec2_event > div {
+    width: 100%;
+  }
+  .sec2_main_event_wrap {
+    width: 100%;
+    display: block;
+  }
+  .sec2_main_event_img {
+    width: 710px;
+    margin: 0px auto;
+  }
+  .sec2_main_event_text {
+    margin: 0px auto;
+  }
+  .sec2_event_board {
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  .sec2_event_board_box {
+    padding: 0px;
+    padding-left: 20px;
+  }
+  .sec2_event_board_box > p:nth-of-type(1) {
+    width: 95px;
+  }
+  .sec2_event_board_box > p:nth-of-type(2) {
+    width: 200px;
+    margin-right: 0px;
+  }
+  .sec2_event_board_box:nth-of-type(4) > p:nth-of-type(2) {
+    margin-right: 0px;
+  }
+  .sec2_event_board_box > p:nth-of-type(3) {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 20px;
+  }
+  .sec2_event_board_box > a {
+    width: 300px;
+  }
+  /* 섹션 3번 - 인기게임 */
+  .sec3_attention {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .slide_img_wrap {
+    margin-left: 0px;
+  }
+  /* 섹션 4번 - 신상게임 */
+  .sec4_new_topic {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+}
