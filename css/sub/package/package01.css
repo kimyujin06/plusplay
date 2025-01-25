@@ -149,6 +149,10 @@
   color: #656565;
 }
 
+.plan_price > span {
+  display: none;
+}
+
 .plan_price {
   display: flex;
   gap: 10px;

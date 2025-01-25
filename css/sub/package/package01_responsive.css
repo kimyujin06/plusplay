@@ -1,0 +1,336 @@
+@charset "utf-8";
+@import url(../../common_responsive.css);
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  .title_box > div:nth-of-type(1) > img {
+    width: 110px;
+  }
+  .title_box > div:nth-of-type(2) {
+    margin-left: 20px;
+  }
+  .title_box > div:nth-of-type(2) > h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .sec1_title_hashtag {
+    display: none;
+  }
+
+  /* 섹션 1번 - 패키지 구독 요금제 영역 */
+  .sec1_package {
+    width: 100%;
+    padding: 100px 15px;
+    box-sizing: border-box;
+  }
+  .sec1_package > div {
+    width: 100%;
+  }
+  .sec1_plan_board_line {
+    height: fit-content;
+    display: block;
+    padding: 20px 0px;
+    margin: 0px auto;
+  }
+  .sec1_plan_board {
+    height: fit-content;
+  }
+  .plan_price > span {
+    width: 80px;
+    height: fit-content;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    padding: 10px 10px;
+    border-radius: 32px;
+    margin-right: 20px;
+    color: #757575;
+  }
+  .sec1_plan_board_line_color {
+    margin: 0px auto;
+  }
+  .sec1_plan_board_line_color > h4 {
+    padding-top: 10px;
+  }
+
+  .sec1_plan_board_line:nth-of-type(1) > h4 {
+    display: none;
+  }
+  .sec1_plan_board_line:nth-of-type(1) {
+    display: none;
+  }
+  .plan_price {
+    width: fit-content;
+    height: 100px;
+    padding: 0px;
+    margin: 0px auto;
+    align-items: center;
+  }
+  .plan_price > p:nth-of-type(1) {
+    width: 105px;
+  }
+  .sec1_plan_board > p {
+    display: none;
+  }
+
+  /* 섹션 2번 - 패키지 가이드 영역 */
+  .sec2_pacage_guide {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_pacage_guide > div {
+    width: 100%;
+  }
+  .explanation_line > h4 {
+    width: 30%;
+    margin-right: 40px;
+  }
+  .explanation_line > p {
+    width: 70%;
+    line-height: 25px;
+  }
+}
+
+/* 테블릿 - sm, md */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  .title_box > div:nth-of-type(1) > img {
+    width: 110px;
+  }
+  .title_box > div:nth-of-type(2) {
+    margin-left: 20px;
+  }
+  .title_box > div:nth-of-type(2) > h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .sec1_title_hashtag {
+    width: 100%;
+  }
+  .sec1_title_hashtag > p {
+    padding: 15px 20px;
+  }
+
+  /* 섹션 1번 - 패키지 구독 요금제 영역 */
+  .sec1_package {
+    width: 100%;
+    padding: 100px 15px;
+    box-sizing: border-box;
+  }
+  .sec1_package > div {
+    width: 100%;
+  }
+  .sec1_plan_board_line {
+    height: fit-content;
+    display: block;
+    padding: 20px 0px;
+    margin: 0px auto;
+  }
+  .sec1_plan_board {
+    height: fit-content;
+  }
+  .plan_price > span {
+    width: 80px;
+    height: fit-content;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    padding: 10px 10px;
+    border-radius: 32px;
+    margin-right: 20px;
+    color: #757575;
+  }
+  .sec1_plan_board_line_color {
+    margin: 0px auto;
+  }
+  .sec1_plan_board_line_color > h4 {
+    padding-top: 10px;
+  }
+
+  .sec1_plan_board_line:nth-of-type(1) > h4 {
+    display: none;
+  }
+  .sec1_plan_board_line:nth-of-type(1) {
+    display: none;
+  }
+  .plan_price {
+    width: fit-content;
+    height: 100px;
+    padding: 0px;
+    margin: 0px auto;
+    align-items: center;
+  }
+  .plan_price > p:nth-of-type(1) {
+    width: 105px;
+  }
+  .sec1_plan_board > p {
+    display: none;
+  }
+
+  /* 섹션 2번 - 패키지 가이드 영역 */
+  .sec2_pacage_guide {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_pacage_guide > div {
+    width: 90%;
+  }
+  .explanation_line > h4 {
+    width: 20%;
+    margin-right: 40px;
+  }
+  .explanation_line > p {
+    width: 80%;
+    line-height: 25px;
+  }
+}
+
+/* 테블릿-md, 작은 노트북 */
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  .title_box > div:nth-of-type(1) > img {
+    width: 110px;
+  }
+  .title_box > div:nth-of-type(2) {
+    margin-left: 20px;
+  }
+  .title_box > div:nth-of-type(2) > h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .sec1_title_hashtag {
+    width: 100%;
+  }
+  .sec1_title_hashtag > p {
+    padding: 15px 20px;
+  }
+
+  /* 섹션 1번 - 패키지 구독 요금제 영역 */
+  .sec1_package {
+    width: 100%;
+    padding: 100px 15px;
+    box-sizing: border-box;
+  }
+  .sec1_package > div {
+    width: 100%;
+  }
+  .sec1_plan_board_line {
+    height: fit-content;
+    display: block;
+    padding: 20px 0px;
+    margin: 0px auto;
+  }
+  .sec1_plan_board {
+    height: fit-content;
+  }
+  .plan_price > span {
+    width: 80px;
+    height: fit-content;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    padding: 10px 10px;
+    border-radius: 32px;
+    margin-right: 20px;
+    color: #757575;
+  }
+  .sec1_plan_board_line_color {
+    margin: 0px auto;
+  }
+  .sec1_plan_board_line_color > h4 {
+    padding-top: 10px;
+  }
+
+  .sec1_plan_board_line:nth-of-type(1) > h4 {
+    display: none;
+  }
+  .sec1_plan_board_line:nth-of-type(1) {
+    display: none;
+  }
+  .plan_price {
+    width: fit-content;
+    height: 100px;
+    padding: 0px;
+    margin: 0px auto;
+    align-items: center;
+  }
+  .plan_price > p:nth-of-type(1) {
+    width: 105px;
+  }
+  .sec1_plan_board > p {
+    display: none;
+  }
+
+  /* 섹션 2번 - 패키지 가이드 영역 */
+  .sec2_pacage_guide {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_pacage_guide > div {
+    width: 90%;
+  }
+  .explanation_line > h4 {
+    width: 20%;
+    margin-right: 40px;
+  }
+  .explanation_line > p {
+    width: 80%;
+    line-height: 25px;
+  }
+}
+
+/* 테블릿-lg, 일반 노트북 */
+@media screen and (min-width: 1251px) and (max-width: 1440px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  /* 섹션 1번 - 패키지 구독 요금제 영역 */
+  .sec1_package {
+    width: 100%;
+    padding: 100px 15px;
+    box-sizing: border-box;
+  }
+  .sec1_package > div {
+    width: 100%;
+  }
+}
+
+/* pc */
+@media screen and (min-width: 1441px) and (max-width: 1900px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  .sec1_title_hashtag {
+    width: 100%;
+  }
+  /* 섹션 1번 - 패키지 구독 요금제 영역 */
+  .sec1_package {
+    width: 80%;
+    padding: 100px 15px;
+    box-sizing: border-box;
+    margin: 0px auto;
+  }
+  .sec1_package > div {
+    width: 100%;
+  }
+}
