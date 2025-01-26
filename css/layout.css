@@ -208,7 +208,7 @@ main {
 /* 메인 비주얼 글자 영역 */
 .sec1_big_text {
   position: absolute;
-  bottom: 70px;
+  bottom: 80px;
   left: 100px;
   color: #fff;
 }
@@ -222,7 +222,7 @@ main {
 
 .sec1_mainvisual > div > .plus_button {
   position: absolute;
-  bottom: -50px;
+  bottom: -40px;
   right: 24px;
 }
 

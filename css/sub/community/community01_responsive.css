@@ -95,9 +95,10 @@
     object-fit: cover;
   }
   .board_text {
-    width: 100%;
+    width: fit-content;
     padding: 30px 0px;
     height: fit-content;
+    margin: 0px auto;
   }
   .board_text > div:nth-of-type(1) > p {
     width: 35px;
@@ -130,6 +131,9 @@
   .board_box > p:nth-of-type(3) {
     width: 85%;
     line-height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
   .board_box > a {
     width: 25%;
@@ -151,7 +155,7 @@
   }
   .sec3_board > div > .main_board_wrap > .main_board_img {
     display: block;
-    width: fit-content;
+    width: 450px;
     margin: 0px auto;
   }
   .main_board_img > a:nth-of-type(2),
@@ -178,9 +182,6 @@
     font-size: 32px;
     line-height: 40px;
   }
-  .title_box > div:nth-of-type(2) > h2 > br {
-    display: block;
-  }
   /* 섹션 1번 영역 */
   .sec1_community {
     padding: 100px 15px;
@@ -194,4 +195,104 @@
   .sec1_title_hashtag > p {
     padding: 15px 20px;
   }
+  /* 섹션 1번 - 카드 영역 */
+  .sec1_card_wrap {
+    width: 100%;
+    animation: none;
+    display: block;
+  }
+  .sec1_card_box:not(
+      .sec1_card_box:nth-of-type(4),
+      .sec1_card_box:nth-of-type(5),
+      .sec1_card_box:nth-of-type(6)
+    ) {
+    display: none;
+  }
+  .sec1_card_box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .sec1_card_right {
+    padding: 80px 4vw;
+  }
+  .sec1_card_right > h3 {
+    font-size: 26px;
+  }
+  .sec1_card_right > div:nth-of-type(2) {
+    font-size: 18px;
+  }
+  /* 섹션 2번 - 자유게시판 영역 */
+  .sec2_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_board > div {
+    width: 100%;
+  }
+
+  .main_board_wrap {
+    display: block;
+  }
+  .main_board_img {
+    margin: 0px auto;
+  }
+  .board_text {
+    width: fit-content;
+    margin: 0px auto;
+    padding: 30px 0px;
+    height: fit-content;
+  }
+  .board_box {
+    padding: 0px 10px;
+    justify-content: space-between;
+  }
+  .board_line {
+    margin-top: 10px;
+  }
+  .board_box > p:nth-of-type(1),
+  .board_box > p:nth-of-type(5),
+  .board_box > p:nth-of-type(6) {
+    display: none;
+  }
+  .board_box > p:nth-of-type(2) {
+    border: none;
+    margin-right: 20px;
+  }
+  .board_box > p:nth-of-type(3) {
+    width: 85%;
+    line-height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .board_box > a {
+    width: 25%;
+    margin-left: 0px;
+    padding-left: 3vw;
+    justify-content: center;
+  }
+  .board_box > img {
+    display: none;
+  }
+  /* 섹션 3번 - 공략게시판 영역 */
+  .sec3_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec3_board > div {
+    width: 100%;
+  }
+  .sec3_board > div > .main_board_wrap > .main_board_img {
+    display: block;
+    width: 450px;
+    margin: 0px auto;
+  }
+  .main_board_img > a:nth-of-type(2),
+  .main_board_img > a:nth-of-type(3) {
+    display: none;
+  }
+}
+
+/* 테블릿-md, 작은 노트북 */
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
 }
