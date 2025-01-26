@@ -140,6 +140,7 @@
   .board_box > img {
     display: none;
   }
+
   /* 섹션 3번 - 공략게시판 영역 */
   .sec3_board {
     padding: 0px 15px;
@@ -151,7 +152,6 @@
   .sec3_board > div > .main_board_wrap > .main_board_img {
     display: block;
   }
-
   .main_board_img > a:nth-of-type(2),
   .main_board_img > a:nth-of-type(3) {
     display: none;
