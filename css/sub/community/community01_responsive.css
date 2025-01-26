@@ -268,7 +268,7 @@
   .board_box > a {
     width: 25%;
     margin-left: 0px;
-    padding-left: 3vw;
+    padding-left: 0px;
     justify-content: center;
   }
   .board_box > img {
@@ -291,8 +291,256 @@
   .main_board_img > a:nth-of-type(3) {
     display: none;
   }
+  .board_box > p:nth-of-type(4) {
+    width: 100px;
+    text-align: end;
+  }
 }
 
 /* 테블릿-md, 작은 노트북 */
 @media screen and (min-width: 1025px) and (max-width: 1250px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  /* 섹션 1번 영역 */
+  .sec1_community {
+    padding: 100px 15px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+  /* 섹션 2번 - 자유게시판 영역 */
+  .sec2_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_board > div {
+    width: 100%;
+  }
+
+  .main_board_wrap {
+    display: block;
+  }
+  .main_board_img {
+    margin: 0px auto;
+  }
+  .board_text {
+    width: fit-content;
+    margin: 0px auto;
+    padding: 30px 0px;
+    height: fit-content;
+  }
+  .board_box {
+    padding: 0px 10px;
+    justify-content: space-between;
+  }
+  .board_line {
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .board_box > p:nth-of-type(1) {
+    width: 50px;
+    text-align: center;
+  }
+  .board_box > p:nth-of-type(5) {
+    width: 100px;
+  }
+
+  .board_box > p:nth-of-type(6) {
+    display: none;
+  }
+  .board_box > p:nth-of-type(2) {
+    margin-right: 20px;
+  }
+  .board_box > p:nth-of-type(3) {
+    width: 85%;
+    line-height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .board_box > a {
+    width: 25%;
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .board_box > img {
+    display: none;
+  }
+  /* 섹션 3번 - 공략게시판 영역 */
+  .sec3_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec3_board > div {
+    width: 100%;
+  }
+  .sec3_board > div > .main_board_wrap > .main_board_img {
+    display: flex;
+    width: fit-content;
+    margin: 0px auto;
+    gap: 20px;
+  }
+  .main_board_img > a:nth-of-type(3) {
+    display: none;
+  }
+  .board_box > p:nth-of-type(3) {
+    width: 600px;
+  }
+  .board_box > p:nth-of-type(4) {
+    width: 100px;
+    text-align: end;
+  }
+  .board_box > p:nth-of-type(5) {
+    width: 90px;
+    text-align: end;
+  }
+}
+
+/* 테블릿-lg, 일반 노트북 */
+@media screen and (min-width: 1251px) and (max-width: 1440px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  /* 섹션 1번 영역 */
+  .sec1_community {
+    padding: 100px 15px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+  /* 섹션 2번 - 자유게시판 영역 */
+  .sec2_board > div > .title_box {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .sec3_board > div > .title_box {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .sec2_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_board > div {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .main_board_wrap {
+    display: block;
+  }
+  .main_board_img {
+    margin: 0px auto;
+  }
+  .board_text {
+    width: fit-content;
+    margin: 0px auto;
+    padding: 30px 0px;
+    height: fit-content;
+  }
+  .board_box {
+    padding: 0px 10px;
+    justify-content: space-between;
+  }
+  .board_line {
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .board_box > p:nth-of-type(1) {
+    width: 50px;
+    text-align: center;
+  }
+  .board_box > p:nth-of-type(5) {
+    width: 100px;
+  }
+  .board_box > p:nth-of-type(6) {
+    display: none;
+  }
+  .board_box > p:nth-of-type(2) {
+    margin-right: 20px;
+  }
+  .board_box > p:nth-of-type(3) {
+    width: 85%;
+    line-height: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .board_box > a {
+    width: 25%;
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .board_box > img {
+    display: none;
+  }
+  /* 섹션 3번 - 공략게시판 영역 */
+  .sec3_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec3_board > div {
+    width: 100%;
+  }
+  .sec3_board > div > .main_board_wrap > .main_board_img {
+    display: flex;
+    width: fit-content;
+    margin: 0px auto;
+    gap: 20px;
+  }
+  .main_board_img > a:nth-of-type(3) {
+    display: none;
+  }
+  .board_box > p:nth-of-type(3) {
+    width: 600px;
+  }
+  .board_box > p:nth-of-type(4) {
+    width: 100px;
+    text-align: end;
+  }
+  .board_box > p:nth-of-type(5) {
+    width: 90px;
+    text-align: end;
+  }
+}
+
+/* pc */
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  /* 섹션 1번 영역 */
+  .sec1_community {
+    padding: 100px 15px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+  .sec2_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_board > div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .sec3_board {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec3_board > div {
+    width: 100%;
+  }
+  .sec3_board > div > .main_board_wrap > .main_board_img > a {
+    width: 450px;
+  }
 }
