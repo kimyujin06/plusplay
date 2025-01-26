@@ -1161,7 +1161,7 @@
   }
   /* 메인 비주얼 글자 영역 */
   .sec1_big_text {
-    bottom: 155px;
+    bottom: 60px;
     left: 70px;
     letter-spacing: -2px;
   }
@@ -1170,7 +1170,7 @@
   }
 
   .sec1_mainvisual > div > .plus_button {
-    bottom: -70px;
+    bottom: -60px;
     right: -20px;
   }
 
