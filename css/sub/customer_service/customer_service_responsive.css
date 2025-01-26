@@ -1,0 +1,226 @@
+@charset "utf-8";
+@import url(../../common_responsive.css);
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  /* 1번 섹션 - 고객센터, 바로가기 버튼 */
+  .sec1_customer_service_center > div {
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .sec1_service_center_move {
+    width: fit-content;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+  }
+  .title_box {
+    width: 100%;
+  }
+  .sec2_other_service_line {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service > div {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service_line > div > img {
+    display: none;
+  }
+  .sec2_other_service > div > div:nth-of-type(2) > div {
+    padding-left: 0px;
+  }
+  .sec2_other_service > div > div:nth-of-type(4) > div {
+    padding-left: 0px;
+  }
+  .sec2_other_service_line > div {
+    padding-left: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .sec2_other_service_line > p {
+    margin-left: 0px;
+    width: 70%;
+    margin-left: 20px;
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .sec2_other_service_line > a {
+    padding: 0px;
+    width: 35%;
+    padding-left: 20px;
+    margin-left: 10px;
+    justify-content: center;
+  }
+}
+
+/* 테블릿 - sm, md */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* 1번 섹션 - 고객센터, 바로가기 버튼 */
+  .sec1_customer_service_center > div {
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .sec1_service_center_move {
+    width: fit-content;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+  }
+  .title_box {
+    width: 100%;
+  }
+  .sec2_other_service_line {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service > div {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service_line > div > img {
+    display: none;
+  }
+  .sec2_other_service > div > div:nth-of-type(2) > div {
+    padding-left: 0px;
+  }
+  .sec2_other_service > div > div:nth-of-type(4) > div {
+    padding-left: 0px;
+  }
+  .sec2_other_service_line > div {
+    padding-left: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .sec2_other_service_line > p {
+    margin-left: 0px;
+    width: 70%;
+    margin-left: 20px;
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .sec2_other_service_line > a {
+    padding: 0px;
+    width: 35%;
+    padding-left: 20px;
+    margin-left: 10px;
+    justify-content: center;
+  }
+}
+
+/* 테블릿-md, 작은 노트북 */
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
+  /* 1번 섹션 - 고객센터, 바로가기 버튼 */
+  .sec1_customer_service_center > div {
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .sec1_service_center_move {
+    width: fit-content;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+  }
+  .title_box {
+    width: 100%;
+  }
+  .sec2_other_service_line {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service > div {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service_line > div > img {
+    display: none;
+  }
+  .sec2_other_service > div > div:nth-of-type(2) > div {
+    padding-left: 0px;
+  }
+  .sec2_other_service > div > div:nth-of-type(4) > div {
+    padding-left: 0px;
+  }
+  .sec2_other_service_line > div {
+    padding-left: 0px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .sec2_other_service_line > p {
+    margin-left: 0px;
+    width: 70%;
+    margin-left: 20px;
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .sec2_other_service_line > a {
+    padding: 0px;
+    width: 35%;
+    padding-left: 20px;
+    margin-left: 10px;
+    justify-content: center;
+  }
+}
+
+/* 테블릿-lg, 일반 노트북 */
+@media screen and (min-width: 1251px) and (max-width: 1440px) {
+  /* 1번 섹션 - 고객센터, 바로가기 버튼 */
+  .sec1_customer_service_center > div {
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .sec1_service_center_move {
+    width: fit-content;
+    gap: 10px;
+  }
+  .sec1_service_center_move > div {
+    width: 400px;
+  }
+  .title_box {
+    width: 100%;
+  }
+  .sec2_other_service_line {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service > div {
+    width: 100%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+}
+
+/* pc */
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  /* 1번 섹션 - 고객센터, 바로가기 버튼 */
+  .sec1_customer_service_center > div {
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .sec1_service_center_move {
+    width: fit-content;
+    gap: 10px;
+  }
+  .sec1_service_center_move > div {
+    width: 400px;
+  }
+  .title_box {
+    width: 100%;
+  }
+  .sec2_other_service_line {
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+  .sec2_other_service > div {
+    width: 90%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+  }
+}
