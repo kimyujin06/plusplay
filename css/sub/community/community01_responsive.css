@@ -151,9 +151,47 @@
   }
   .sec3_board > div > .main_board_wrap > .main_board_img {
     display: block;
+    width: fit-content;
+    margin: 0px auto;
   }
   .main_board_img > a:nth-of-type(2),
   .main_board_img > a:nth-of-type(3) {
     display: none;
+  }
+}
+
+/* 테블릿 - sm, md */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* 타이틀 공통 영역 */
+  .title_box {
+    width: 100%;
+    margin: 0px;
+  }
+  .title_box > div:nth-of-type(1) > img {
+    width: 110px;
+  }
+  .title_box > div:nth-of-type(2) {
+    margin-left: 20px;
+  }
+  .title_box > div:nth-of-type(2) > h2 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .title_box > div:nth-of-type(2) > h2 > br {
+    display: block;
+  }
+  /* 섹션 1번 영역 */
+  .sec1_community {
+    padding: 100px 15px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+  }
+  /* 타이틀 해시태그 영역 */
+  .sec1_title_hashtag {
+    width: 100%;
+  }
+  .sec1_title_hashtag > p {
+    padding: 15px 20px;
   }
 }
