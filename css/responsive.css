@@ -1620,6 +1620,10 @@
     display: none;
   }
 
+  #gnb02 {
+    display: none;
+  }
+
   /* 섹션 1번 - 메인비주얼 */
   .sec1_mainvisual {
     width: 96%;
@@ -1872,6 +1876,9 @@
 }
 
 @media screen and (min-width: 1251px) and (max-width: 1440px) {
+  #gnb02 {
+    display: none;
+  }
   /* 섹션 8번 - 이용가이드 */
   .sec8_guide {
     width: 80%;
@@ -1981,11 +1988,14 @@
 }
 
 /* pc */
-@media screen and (min-width: 1441px) and (max-width: 1600px) {
+@media screen and (min-width: 1441px) {
   /* 헤더영역 */
   .con {
     padding: 0px 35px;
     padding-left: 10px;
+  }
+  #gnb02 {
+    display: none;
   }
 
   /* 로고 영역 */

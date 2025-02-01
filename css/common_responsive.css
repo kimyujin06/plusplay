@@ -1,5 +1,9 @@
 @charset "utf-8";
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .container {
+    padding: 0px 12px;
+    box-sizing: border-box;
+  }
   /* 헤더영역 */
   .con {
     padding: 0px 35px;
@@ -30,7 +34,8 @@
   }
   .header_icons > div:nth-of-type(3) {
     display: flex;
-  } /* 푸터 영역 */
+  }
+  /* 푸터 영역 */
   footer {
     height: fit-content;
   }
@@ -121,6 +126,10 @@
 
 /* 테블릿-md, 작은 노트북 */
 @media screen and (min-width: 1025px) and (max-width: 1250px) {
+  .container {
+    padding: 0px 12px;
+    box-sizing: border-box;
+  }
   /* 헤더영역 */
   .con {
     padding: 0px 35px;
@@ -211,6 +220,10 @@
     left: -10%;
   }
 
+  #gnb02 {
+    display: none;
+  }
+
   /* 헤더 아이콘 영역 */
   .header_icons > div:nth-of-type(1) {
     display: flex;
@@ -227,7 +240,7 @@
 }
 
 /* pc */
-@media screen and (min-width: 1441px) and (max-width: 1600px) {
+@media screen and (min-width: 1441px) {
   /* 헤더영역 */
   .con {
     padding: 0px 35px;
@@ -248,6 +261,9 @@
   .con > h1 {
     width: fit-content;
     height: 72px;
+  }
+  #gnb02 {
+    display: none;
   }
 
   /* 헤더 메뉴 영역 */
