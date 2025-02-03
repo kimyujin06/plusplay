@@ -200,6 +200,7 @@ header {
   padding-top: 20px;
   padding-right: 10px;
   transition: 0.3s;
+  overflow-y: auto;
 }
 
 #gnb02 > ul {
