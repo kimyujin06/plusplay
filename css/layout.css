@@ -191,7 +191,7 @@ header {
 
 #gnb02 {
   position: absolute;
-  width: 75vw;
+  width: 100vw;
   height: 100vh;
   background-color: #fffffff8;
   box-sizing: border-box;
@@ -211,7 +211,7 @@ header {
 #gnb02 > ul > li {
   margin-bottom: 10px;
   padding-bottom: 10px;
-  padding-left: 5vw;
+  padding-left: 50px;
   display: flex;
   gap: 50px;
   border-bottom: 1px solid #e9e9e9;
