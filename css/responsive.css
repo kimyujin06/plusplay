@@ -445,6 +445,8 @@
   .sec8_guide {
     width: 100%;
     margin: 0px;
+    padding: 0px 30px;
+    box-sizing: border-box;
   }
   .sec8_guide > .title {
     margin-top: 100px;
@@ -494,6 +496,8 @@
   /* 섹션 9번 */
   .sec9_question {
     width: 100%;
+    padding: 0px 30px;
+    box-sizing: border-box;
   }
   .sec9_box_wrap {
     width: 100%;
