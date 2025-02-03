@@ -192,7 +192,7 @@ header {
 #gnb02 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 100px);
   background-color: #fffffff8;
   box-sizing: border-box;
   top: 100px;
@@ -220,6 +220,7 @@ header {
 
 #gnb02 > ul > li:last-child {
   border: none;
+  margin-bottom: 100px;
 }
 
 #gnb02 > ul > li > a {
