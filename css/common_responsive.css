@@ -19,8 +19,21 @@
     z-index: 999;
   }
   .con > h1 {
-    width: fit-content;
+    width: 125px;
     height: 72px;
+    align-self: center;
+  }
+
+  .con > h1 > a {
+    width: 100%;
+    height: 100%;
+  }
+
+  .con > h1 > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 2px;
   }
 
   /* 헤더 메뉴 영역 */
