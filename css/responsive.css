@@ -445,7 +445,7 @@
   .sec8_guide {
     width: 100%;
     margin: 0px;
-    padding: 0px 30px;
+    padding: 0px 20px;
     box-sizing: border-box;
   }
   .sec8_guide > .title {
@@ -465,13 +465,13 @@
     width: 100%;
   }
   .sec8_text_box > div > div > p:first-child {
-    width: 70%;
+    width: 60%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
   .sec8_text_box > div > div > p:last-child {
-    width: 35%;
+    width: 40%;
     margin-left: 5px;
   }
   .sec8_text_box > div > div > p:last-child > a {
@@ -496,7 +496,7 @@
   /* 섹션 9번 */
   .sec9_question {
     width: 100%;
-    padding: 0px 30px;
+    padding: 0px 10px;
     box-sizing: border-box;
   }
   .sec9_box_wrap {
@@ -524,12 +524,12 @@
     width: 100%;
   }
   .sec9_text > div > p:first-child {
-    margin-right: 20px;
+    margin-right: 15px;
     line-height: 24px;
     font-size: 15px;
   }
   .sec9_text > div:first-child > p:last-child {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
   }
   .sec9_text > div:last-child > p:last-child {
