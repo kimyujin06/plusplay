@@ -69,7 +69,7 @@
 
   /* 메인 비주얼 글자 영역 */
   .sec1_big_text {
-    bottom: 170px;
+    bottom: 120px;
     left: 20px;
     letter-spacing: -2px;
   }
@@ -114,7 +114,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 15px;
   }
   .event_box > p:nth-of-type(3),
   .event_plus {
@@ -141,6 +141,7 @@
   }
 
   .category_img_box img {
+    filter: grayscale(0%);
     max-width: 80px;
   }
 
@@ -202,7 +203,7 @@
   }
   .sec4_new_topic > .plus_button > a {
     padding: 15px 12vw;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     font-size: 16px;
   }
 
@@ -340,6 +341,7 @@
   .sec6_community > .plus_button {
     margin: 0px auto;
     margin-top: 30px;
+    padding-bottom: 100px;
   }
   .sec6_community > .plus_button > a {
     padding: 15px 12vw;
@@ -353,6 +355,7 @@
 
   .sec7_recommended > .title {
     margin-bottom: 0px;
+    margin-top: 100px;
   }
 
   .sec7_con_wrap {
@@ -431,6 +434,7 @@
     width: fit-content;
     margin: 0px auto;
     margin-top: 50px;
+    padding-bottom: 100px;
   }
   .sec7_recommended > .plus_button > a {
     padding: 15px 14vw;
@@ -441,6 +445,9 @@
   .sec8_guide {
     width: 100%;
     margin: 0px;
+  }
+  .sec8_guide > .title {
+    margin-top: 100px;
   }
   .sec8_box_wrap {
     width: 100%;
@@ -456,13 +463,14 @@
     width: 100%;
   }
   .sec8_text_box > div > div > p:first-child {
-    width: 55%;
+    width: 70%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
   .sec8_text_box > div > div > p:last-child {
-    width: 45%;
+    width: 35%;
+    margin-left: 5px;
   }
   .sec8_text_box > div > div > p:last-child > a {
     padding: 0px 5vw;
