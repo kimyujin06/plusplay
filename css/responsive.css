@@ -54,7 +54,8 @@
   /* 섹션 1번 - 메인비주얼 */
   .sec1_mainvisual {
     width: 100%;
-    height: 824px;
+    height: 100vh;
+    max-height: 824px;
     padding: 100px 0px;
     padding-bottom: 0px;
     box-sizing: border-box;
