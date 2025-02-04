@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PLUSPLAY</title>
+    <!-- 슬라이드 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/layout.css" />
     <!-- 반응형 -->
     <link rel="stylesheet" href="./css/responsive.css" />
@@ -14,6 +20,8 @@
       type="image/ico"
       href="./img/layout/favicon.ico"
     />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
@@ -229,7 +237,11 @@
           </div>
         </section>
         <!-- 섹션 3번 - 카테고리 -->
-        <section class="sec3_category">
+        <section
+          class="sec3_category"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="category_box">
             <div class="category_img_box">
               <a href="#"><img src="./img/layout/all.png" alt="전체" /></a>
@@ -463,7 +475,11 @@
                   </div>
                 </div>
               </div>
-              <div class="sec5_con_img">
+              <div
+                class="sec5_con_img"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 <img
                   src="./img/layout/mario_party.png"
                   alt="마리오파티_잼버리"
@@ -471,7 +487,11 @@
               </div>
             </div>
             <div class="sec5_con_box">
-              <div class="sec5_con_img">
+              <div
+                class="sec5_con_img"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
                 <img src="./img/layout/zelda.png" alt="젤다의전설_지혜의투영" />
               </div>
               <div class="sec5_con_text">
@@ -520,7 +540,11 @@
                   </div>
                 </div>
               </div>
-              <div class="sec5_con_img">
+              <div
+                class="sec5_con_img"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 <img src="./img/layout/overcooked.png" alt="오버쿡드" />
               </div>
             </div>
@@ -544,18 +568,28 @@
               <h2>PLUSPLAY 유저들의 게임 소식</h2>
             </div>
           </div>
-          <div class="sec6_img_wrap">
-            <div class="sec6_img_box">
-              <div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
                 <img src="./img/layout/review1.png" alt="리뷰1" />
               </div>
-              <div>
+              <div class="swiper-slide">
                 <img src="./img/layout/review2.png" alt="리뷰2" />
               </div>
-              <div>
+              <div class="swiper-slide">
+                <img src="./img/layout/review3.png" alt="리뷰3" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/layout/review1.png" alt="리뷰1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/layout/review2.png" alt="리뷰2" />
+              </div>
+              <div class="swiper-slide">
                 <img src="./img/layout/review3.png" alt="리뷰3" />
               </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
           <!-- 더보기 버튼 영역 -->
           <div class="plus_button">
@@ -667,7 +701,11 @@
             </div>
           </div>
           <div class="sec8_box_wrap">
-            <div class="sec8_text_box">
+            <div
+              class="sec8_text_box"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div>
                 <h3>서비스 소개</h3>
                 <div>
@@ -749,7 +787,11 @@
                 </a>
               </div>
             </div>
-            <div class="sec9_text_box">
+            <div
+              class="sec9_text_box"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div class="sec9_text">
                 <div>
                   <p>Q&#46;</p>
@@ -821,6 +863,9 @@
         </div>
       </footer>
     </div>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 레이아웃 -->
+    <script src="./js/layout.js"></script>
   </body>
-  <script src="./js/layout.js"></script>
 </html>
