@@ -24,17 +24,27 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
   slidesPerView: 3,
-  spaceBetween: 40,
+  spaceBetween: 0,
   watchOverflow: true,
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: -195,
+    depth: 250,
+    modifier: 1,
+    slideShadows: true,
+  },
 
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    dynamicBullets: true,
   },
 
   autoplay: {
-    delay: 2000,
+    delay: 2500,
     disableOnInteraction: false,
   },
 
@@ -43,10 +53,47 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 1,
     },
     1025: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     1200: {
       slidesPerView: 3,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -145,
+        depth: 250,
+        modifier: 1,
+        slideShadows: true,
+      },
+    },
+    1251: {
+      slidesPerView: 3,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -155,
+        depth: 250,
+        modifier: 1,
+        slideShadows: true,
+      },
+    },
+    1270: {
+      slidesPerView: 3,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -165,
+        depth: 250,
+        modifier: 1,
+        slideShadows: true,
+      },
+    },
+    1280: {
+      slidesPerView: 3,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: -195,
+        depth: 250,
+        modifier: 1,
+        slideShadows: true,
+      },
     },
   },
 });

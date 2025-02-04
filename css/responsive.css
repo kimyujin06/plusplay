@@ -315,10 +315,28 @@
     padding-bottom: 30px;
   }
   .swiper {
-    height: 62vw;
+    width: 98%;
+    height: 65vw;
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
   }
+
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
   .swiper-slide {
-    height: 85%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  .swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   /* 섹션 6번 더보기 버튼 영역 */
   .sec6_community > .plus_button {
@@ -913,17 +931,29 @@
   }
 
   /* 섹션 6번 커뮤니티 */
-  .sec6_img_wrap {
-    margin: 0px auto;
+  .swiper {
+    width: 80%;
+    height: 55vw;
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
   }
-  .sec6_img_box > div:nth-of-type(1) {
-    display: none;
+
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
   }
-  .sec6_img_box > div:nth-of-type(3) {
-    display: none;
+
+  .swiper-slide {
+    height: 80%;
+    overflow: hidden;
+    border-radius: 25px;
   }
-  .sec6_img_box {
-    transform: translateX(0);
+
+  .swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   /* 섹션 6번 더보기 버튼 영역 */
@@ -1432,17 +1462,29 @@
     margin: 0px auto;
   }
   /* 섹션 6번 커뮤니티 */
-  .sec6_img_wrap {
-    margin: 0px auto;
+  .swiper {
+    width: 65%;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
   }
-  .sec6_img_box > div:nth-of-type(1) {
-    display: none;
+
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
   }
-  .sec6_img_box > div:nth-of-type(3) {
-    display: none;
+
+  .swiper-slide {
+    height: 80%;
+    overflow: hidden;
+    border-radius: 25px;
   }
-  .sec6_img_box {
-    transform: translateX(0px);
+
+  .swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   /* 섹션 6번 더보기 버튼 영역 */
@@ -1862,6 +1904,32 @@
     height: 100%;
     object-fit: cover;
   }
+  /* 섹션 6번 */
+  .swiper {
+    width: 98%;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
+  }
+
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    height: 80%;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  .swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   /* 섹션 7번 추천 패키지 */
   .sec7_recommended > .title {
     width: 800px;
@@ -2156,6 +2224,32 @@
   /* 섹션 5번 - 더보기 버튼 영역 */
   .sec5_attention > .plus_button {
     width: 1305px;
+  }
+
+  /* 섹션 6번 */
+  .swiper {
+    width: 98%;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
+  }
+
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    height: 80%;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  .swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   /* 섹션 7번 추천 패키지 영역 */
