@@ -8,6 +8,7 @@
   }
   header {
     padding: 0px 12px;
+    padding-right: 0px;
     box-sizing: border-box;
   }
   /* 섹션 1번 - 섹션 풀 스크린 이미지 영역 */
