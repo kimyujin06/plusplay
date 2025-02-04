@@ -6,6 +6,9 @@
     padding: 0px 0px;
     box-sizing: border-box;
   }
+  .con {
+    padding-right: 25px;
+  }
   .con > h1 {
     padding-left: 12px;
   }
