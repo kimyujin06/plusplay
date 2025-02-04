@@ -209,7 +209,7 @@
 }
 
 /* 테블릿-lg, 일반 노트북 */
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
+@media screen and (min-width: 1251px) and (max-width: 1440px) {
   /* 헤더영역 */
   .con {
     padding: 0px 35px;
