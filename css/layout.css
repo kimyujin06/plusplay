@@ -660,6 +660,7 @@ main {
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 /* 섹션 5번 - 타이틀 영역 */
