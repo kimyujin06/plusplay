@@ -837,14 +837,14 @@ main {
 }
 
 .swiper {
-  width: 98%;
+  width: 90%;
   height: 540px;
   display: flex;
   align-items: center;
 }
 
 .swiper-wrapper {
-  width: 100%;
+  width: 90%;
   height: 400px;
 }
 
@@ -859,6 +859,10 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+:root {
+  --swiper-theme-color: #000;
 }
 
 /* 섹션 6번 더보기 버튼 영역 */
