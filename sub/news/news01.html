@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PLUSPLAY &#58; 소식</title>
+    <!-- 슬라이드 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../../css/sub/news/news01.css" />
     <link
       rel="icon"
@@ -437,28 +443,23 @@
               </div>
             </div>
           </div>
-          <div class="slide_img_wrap">
-            <div>
-              <div class="slide_img">
+          <div class="slide_img_wrap swiper">
+            <div class="swiper-wrapper">
+              <div class="slide_img swiper-slide">
                 <img src="../../img/news/mariokart.png" alt="마리오카트" />
               </div>
-              <div class="slide_img">
+              <div class="slide_img swiper-slide">
                 <img src="../../img/news/kirby_will.png" alt="별의커비윌" />
               </div>
-              <div class="slide_img">
+              <div class="slide_img swiper-slide">
                 <img src="../../img/news/animal_crossing.png" alt="동물의숲" />
               </div>
-              <div class="slide_img">
+              <div class="slide_img swiper-slide">
                 <img
                   src="../../img/news/fitness_boxing.png"
                   alt="피트니스복싱"
                 />
               </div>
-              <a href="#"
-                >더보기<img
-                  src="../../img/layout/line_round_plus.svg"
-                  alt="더보기"
-              /></a>
             </div>
           </div>
         </section>
@@ -478,28 +479,23 @@
               </div>
             </div>
           </div>
-          <div class="slide_img_wrap">
-            <div>
-              <div class="slide_img">
+          <div class="slide_img_wrap, swiper">
+            <div class="swiper-wrapper">
+              <div class="slide_img, swiper-slide">
                 <img src="../../img/news/nalad.png" alt="나라드" />
               </div>
-              <div class="slide_img">
+              <div class="slide_img, swiper-slide">
                 <img src="../../img/news/my_sims.png" alt="마이심즈" />
               </div>
-              <div class="slide_img">
+              <div class="slide_img, swiper-slide">
                 <img
                   src="../../img/news/sparking_beam_strike.png"
                   alt="스파킹"
                 />
               </div>
-              <div class="slide_img">
+              <div class="slide_img, swiper-slide">
                 <img src="../../img/news/just_dance.png" alt="저스트댄스" />
               </div>
-              <a href="#"
-                >더보기<img
-                  src="../../img/layout/line_round_plus.svg"
-                  alt="더보기"
-              /></a>
             </div>
           </div>
         </section>
@@ -522,5 +518,7 @@
     </div>
     <!-- 헤더 아이콘 -->
     <script src="../../js/header_menu.js"></script>
+    <!-- 이벤트 -->
+    <script src="../../js/news_event.js"></script>
   </body>
 </html>

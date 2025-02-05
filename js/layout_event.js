@@ -1,8 +1,8 @@
 //스크롤 이벤트
 AOS.init();
 
-// 슬라이드
-const swiper = new Swiper(".swiper", {
+// 슬라이드 섹션 6번
+const swiper = new Swiper(".sec6_community .swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
