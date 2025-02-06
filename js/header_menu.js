@@ -49,3 +49,14 @@ if (matchMedia("(min-width: 320px) and (max-width: 768px)").matches) {
 window.onresize = function () {
   document.location.reload();
 };
+
+window.addEventListener("scroll", function () {
+  const header = document.getElementById("header_event");
+
+  if (window.scrollY > 50) {
+    // 50px 이상 스크롤 시
+    header.classList.add("header-scrolled");
+  } else {
+    header.classList.remove("header-scrolled");
+  }
+});

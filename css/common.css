@@ -40,6 +40,18 @@ header {
   position: fixed;
   z-index: 999;
   position: relative;
+  border-bottom: 1px solid #fff;
+  transition: 0.4s;
+}
+
+header:hover {
+  background-color: #fff;
+}
+
+/* 사용자가 스크롤을 내리면 border-bottom을 추가 */
+.header-scrolled {
+  border-bottom: 1px solid #ededed;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .con {
@@ -116,7 +128,7 @@ header {
   position: absolute;
   width: 1000px;
   height: 0px;
-  top: 99px;
+  top: 98px;
   left: -20%;
   background-color: #ffffff;
   z-index: -1;
