@@ -9,14 +9,14 @@
     margin: 0px;
   }
   .title_box > div:nth-of-type(1) > img {
-    width: 110px;
+    width: 65px;
   }
   .title_box > div:nth-of-type(2) {
     margin-left: 20px;
   }
   .title_box > div:nth-of-type(2) > h2 {
     width: 100%;
-    font-size: 32px;
+    font-size: 17px;
   }
   .sec1_title_hashtag {
     display: none;
@@ -39,9 +39,11 @@
   }
   .sec1_plan_board {
     height: fit-content;
+    padding: 0px 20px;
+    margin-top: 40px;
   }
   .plan_price > span {
-    width: 80px;
+    width: 70px;
     height: fit-content;
     display: block;
     font-weight: 600;
@@ -51,12 +53,14 @@
     border-radius: 32px;
     margin-right: 20px;
     color: #757575;
+    font-size: 15px;
   }
   .sec1_plan_board_line_color {
     margin: 0px auto;
   }
   .sec1_plan_board_line_color > h4 {
-    padding-top: 10px;
+    padding-top: 15px;
+    font-size: 16px;
   }
 
   .sec1_plan_board_line:nth-of-type(1) > h4 {
@@ -73,10 +77,17 @@
     align-items: center;
   }
   .plan_price > p:nth-of-type(1) {
-    width: 105px;
+    width: 70px;
+    font-size: 16px;
   }
   .sec1_plan_board > p {
     display: none;
+  }
+  .plan_price > p:nth-of-type(2) {
+    font-size: 16px;
+  }
+  .plus_button > a {
+    font-size: 16px;
   }
 
   /* 섹션 2번 - 패키지 가이드 영역 */
@@ -87,13 +98,23 @@
   .sec2_pacage_guide > div {
     width: 100%;
   }
+  .explanation_wrap > p {
+    font-size: 15px;
+    margin-left: 0px;
+  }
   .explanation_line > h4 {
-    width: 30%;
+    width: 45%;
     margin-right: 40px;
+    font-size: 16px;
+  }
+  .explanation_line {
+    padding: 20px 0px;
+    height: fit-content;
   }
   .explanation_line > p {
     width: 70%;
     line-height: 25px;
+    font-size: 16px;
   }
 }
 
