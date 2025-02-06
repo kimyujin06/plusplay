@@ -3,13 +3,13 @@
 /* mobile */
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .container {
-    padding: 0px 12px;
+    padding: 0px 0px;
     box-sizing: border-box;
   }
   /* 헤더영역 */
   .con {
     padding: 0px 35px;
-    padding-left: 10px;
+    padding-left: 25px;
   }
 
   /* 로고 영역 */
@@ -59,7 +59,7 @@
     width: 100%;
     height: 100vh;
     max-height: 824px;
-    padding: 100px 0px;
+    padding: 100px 12px;
     padding-bottom: 0px;
     box-sizing: border-box;
   }
@@ -154,6 +154,10 @@
   }
 
   /* 섹션 4번 신상게임 */
+  .sec4_new_topic {
+    padding: 0px 12px;
+    box-sizing: border-box;
+  }
   .title_img_box {
     display: none;
   }
@@ -214,6 +218,8 @@
   .sec5_attention {
     background-position: 200px;
     background-size: 200%;
+    padding: 0px 12px;
+    box-sizing: border-box;
   }
   .sec5_attention > .title {
     margin-top: 80px;
@@ -353,6 +359,10 @@
   }
 
   /* 섹션 7번 추천 패키지 */
+  .sec7_recommended {
+    padding: 0px 12px;
+    box-sizing: border-box;
+  }
   .sec7_recommended > .hashtag {
     display: none;
   }
@@ -449,7 +459,7 @@
   .sec8_guide {
     width: 100%;
     margin: 0px;
-    padding: 0px 20px;
+    padding: 0px 32px;
     box-sizing: border-box;
   }
   .sec8_guide > .title {
@@ -500,7 +510,7 @@
   /* 섹션 9번 */
   .sec9_question {
     width: 100%;
-    padding: 0px 10px;
+    padding: 0px 22px;
     box-sizing: border-box;
   }
   .sec9_box_wrap {
@@ -664,7 +674,7 @@
 /* 테블릿 - sm, md */
 @media screen and (min-width: 680px) and (max-width: 1024px) {
   .container {
-    padding: 0px 12px;
+    padding: 0px 0px;
     box-sizing: border-box;
   }
   /* 헤더영역 */
@@ -709,7 +719,7 @@
   .sec1_mainvisual {
     width: 100%;
     height: 824px;
-    padding: 100px 0px;
+    padding: 100px 12px;
     padding-bottom: 0px;
     box-sizing: border-box;
   }
@@ -739,7 +749,8 @@
   }
   /* 섹션 2번 - 이벤트 소식 */
   .sec2_event_news {
-    width: 100%;
+    width: 90%;
+    padding: 0px 12px;
   }
 
   /* 이벤트 박스 (텍스트,더보기) */
@@ -796,6 +807,10 @@
   }
 
   /* 섹션 4번 신상게임 */
+  .sec4_new_topic {
+    padding: 0px 12px;
+    box-sizing: border-box;
+  }
   .title {
     margin: 130px 0px;
     margin-bottom: 50px;
