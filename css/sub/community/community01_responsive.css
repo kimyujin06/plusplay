@@ -46,6 +46,7 @@
     display: block;
     animation: none;
     margin-top: 50px;
+    margin-bottom: 70px;
   }
   .sec1_card_right {
     width: 100%;
@@ -84,6 +85,8 @@
   .sec2_board {
     padding: 0px 15px;
     box-sizing: border-box;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 
   .sec2_board > div {
@@ -166,9 +169,14 @@
   .sec3_board {
     padding: 0px 15px;
     box-sizing: border-box;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   .sec3_board > div {
     width: 100%;
+  }
+  .main_board_wrap {
+    margin-top: 30px;
   }
   .sec3_board > div > .main_board_wrap > .main_board_img {
     display: block;

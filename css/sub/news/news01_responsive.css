@@ -73,10 +73,12 @@
   .sec2_event {
     padding: 0px 15px;
     box-sizing: border-box;
-    margin-top: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   .sec2_main_event_wrap {
     display: block;
+    margin-top: 30px;
   }
   .sec2_main_event_img {
     width: 100%;
@@ -152,6 +154,8 @@
   .sec3_attention {
     padding: 0px 15px;
     box-sizing: border-box;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   .slide_img {
     width: 450px;
@@ -169,10 +173,12 @@
   .sec4_new_topic {
     padding: 0px 15px;
     box-sizing: border-box;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   .swiper {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     gap: 0px;
   }
