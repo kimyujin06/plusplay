@@ -9,14 +9,18 @@
     margin: 0px;
   }
   .title_box > div:nth-of-type(1) > img {
-    width: 110px;
+    width: 65px;
   }
   .title_box > div:nth-of-type(2) {
     margin-left: 20px;
   }
+
+  .title_box > div:nth-of-type(2) > p {
+    font-size: 17px;
+  }
   .title_box > div:nth-of-type(2) > h2 {
     width: 100%;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 40px;
   }
   .title_box > div:nth-of-type(2) > h2 > br {
@@ -46,7 +50,8 @@
   .sec1_card_right {
     width: 100%;
     height: fit-content;
-    padding: 54px 40px;
+    padding: 30px 40px;
+    padding-top: 38px;
   }
   .sec1_card_left {
     display: none;
@@ -56,6 +61,11 @@
   }
   .sec1_card_right > div:nth-of-type(1) {
     margin-bottom: 15px;
+    display: block;
+  }
+  .sec1_card_right > div:nth-of-type(1) > p {
+    font-size: 15px;
+    line-height: 20px;
   }
   .sec1_card_box:nth-of-type(4) {
     display: none;
@@ -67,7 +77,7 @@
     display: none;
   }
   .sec1_card_right > h3 {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   /* 섹션 2번 - 자유게시판 영역 */
@@ -102,11 +112,12 @@
   }
   .board_text > div:nth-of-type(1) > p {
     width: 35px;
-    padding: 7px 10px;
+    padding: 7px 4px;
     text-align: center;
+    font-size: 10px;
   }
   .board_text > div:nth-of-type(1) > h2 {
-    font-size: 22px;
+    font-size: 15px;
   }
   .board_text > div:nth-of-type(2),
   .board_text > div:nth-of-type(2) > p,
@@ -129,20 +140,26 @@
     display: none;
   }
   .board_box > p:nth-of-type(3) {
-    width: 85%;
+    width: 70%;
     line-height: 25px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    font-size: 16px;
   }
   .board_box > a {
-    width: 25%;
+    width: 35%;
     margin-left: 0px;
-    padding-left: 3vw;
+    padding-left: 15px;
     justify-content: center;
+    font-size: 15px;
   }
   .board_box > img {
     display: none;
+  }
+
+  .plus_button > a {
+    font-size: 15px;
   }
 
   /* 섹션 3번 - 공략게시판 영역 */
@@ -155,12 +172,24 @@
   }
   .sec3_board > div > .main_board_wrap > .main_board_img {
     display: block;
-    width: 450px;
+    width: 100%;
+    height: 60vw;
     margin: 0px auto;
+  }
+  .main_board_img > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .main_board_img > a:nth-of-type(2),
   .main_board_img > a:nth-of-type(3) {
     display: none;
+  }
+  .sec3_board > div > .main_board_wrap > .main_board_img > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
   }
 }
 
