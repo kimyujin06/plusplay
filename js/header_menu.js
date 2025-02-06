@@ -4,7 +4,7 @@
 document.querySelector(".menu").onclick = function () {
   document.querySelector(".menu").style.display = "none";
   document.querySelector(".close").style.display = "block";
-  document.querySelector("#gnb02").style.right = "20px";
+  document.querySelector("#gnb02").style.right = "0px";
   document.body.style.overflow = "hidden";
 };
 // 햄버거 버튼_x 버튼 클릭시
@@ -22,6 +22,7 @@ document.querySelector(".serch").onclick = function () {
   document.querySelector("#gnb").style.display = "none";
   document.querySelector(".serch_screen").style.display = "block";
   document.querySelector(".serch_wrap").style.transform = "translateY(0px)";
+  document.querySelector(".header-scrolled").style.border = "none";
   document.body.style.overflow = "hidden";
 };
 
@@ -45,10 +46,6 @@ if (matchMedia("(min-width: 320px) and (max-width: 768px)").matches) {
   //작은 노트북
   document.querySelector(".serch_screen").style.display = "none";
 }
-//화면크기가 변할때마다 창을 새로고침 시키겠다
-window.onresize = function () {
-  document.location.reload();
-};
 
 window.addEventListener("scroll", function () {
   const header = document.getElementById("header_event");
